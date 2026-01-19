@@ -4,7 +4,6 @@ import { Separator } from "@/components/ui/separator";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { useSearchParams } from "react-router";
-import type { FormEvent } from "react";
 
 export const FilterSidebar = () => {
 const [searchParams, setSearchParams] = useSearchParams()
